@@ -224,10 +224,9 @@
         }
 
         .hero-text.text-stroke {
-            color: transparent;
-            -webkit-text-stroke: 2px var(--ink);
-            z-index: 3;
-        }
+    color: var(--ink); /* Defina a cor principal aqui */
+    -webkit-text-stroke: 2px currentColor; /* Garante EXATAMENTE a mesma cor no contorno */
+}
 
         /* ============================================================
            PRELOAD VEIL
