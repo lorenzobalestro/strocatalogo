@@ -1,3 +1,6 @@
+.git
+.git/**
+.gitignore
 ESTRUTURA.md
 wrangler.toml
 .assetsignore
