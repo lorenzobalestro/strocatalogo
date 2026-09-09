@@ -1,4 +1,7 @@
-/* LOOP HERO SNEAKERS */
+/* CONTATO */
+        const WHATSAPP = '5554999743141'; // 55 + DDD + numero, num lugar so
+
+        /* LOOP HERO SNEAKERS */
         const heroSneakers = [
             { src: './imagensPI/hd25novo.png',    width: '55vw', x: '-3vw', y: '-4vw' },
             { src: './imagensPI/Sampler.png',       width: '60vw', x: '-1vw', y: '0vw'  },
@@ -212,7 +215,7 @@
 
             const whatsNoticeHTML = `
                 <div class="more-models-notice">
-                    Não gostou(encontrou) o que queria? Para específicos envie(pergunte) <a href="https://wa.me/555499743141?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20outras%20op%C3%A7%C3%B5es%20de%20Audio%20DJ" target="_blank" rel="noopener noreferrer">aqui</a>
+                    Não gostou(encontrou) o que queria? Para específicos envie(pergunte) <a href="https://wa.me/${WHATSAPP}?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20outras%20op%C3%A7%C3%B5es%20de%20Audio%20DJ" target="_blank" rel="noopener noreferrer">aqui</a>
                 </div>
             `;
 
@@ -360,7 +363,9 @@ drawerClose.addEventListener('click', closeDrawer);
 drawerBackdrop.addEventListener('click', closeDrawer);
 
         /* LÓGICA DO CARRINHO */
+        const CART_KEY = 'stro_cart_escuro';
         let cart = [];
+        try { cart = JSON.parse(localStorage.getItem(CART_KEY)) || []; } catch (e) { cart = []; }
         const cartToggle = document.getElementById('cartToggle');
         const cartDrawer = document.getElementById('cartDrawer');
         const cartBackdrop = document.getElementById('cartBackdrop');
@@ -381,6 +386,7 @@ drawerBackdrop.addEventListener('click', closeDrawer);
         cartToggle.addEventListener('click', toggleCart);
         cartClose.addEventListener('click', toggleCart);
         cartBackdrop.addEventListener('click', toggleCart);
+        updateCart();
 
         addToCartBtn.addEventListener('click', () => {
             if (!currentItem) return;
@@ -397,6 +403,7 @@ drawerBackdrop.addEventListener('click', closeDrawer);
         });
 
         function updateCart() {
+            try { localStorage.setItem(CART_KEY, JSON.stringify(cart)); } catch (e) {}
             const totalCount = cart.reduce((acc, item) => acc + item.qty, 0);
             cartBadge.textContent = totalCount;
             cartCountLabel.textContent = `(${totalCount} itens)`;
@@ -463,7 +470,7 @@ drawerBackdrop.addEventListener('click', closeDrawer);
             selectedItems.forEach(i => {
                 msg += `- ${i.name} (Qtd: ${i.qty}) [${i.code}]\n`;
             });
-            window.open(`https://wa.me/555499743141?text=${encodeURIComponent(msg)}`, '_blank');
+            window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`, '_blank');
         });
 
         /* PRELOADER */

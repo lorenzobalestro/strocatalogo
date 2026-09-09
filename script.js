@@ -1,4 +1,7 @@
-/* LOOP HERO SNEAKERS */
+/* CONTATO */
+        const WHATSAPP = '5554999743141'; // 55 + DDD + numero, num lugar so
+
+        /* LOOP HERO SNEAKERS */
         const heroSneakers = [
             { src: './imagensPI/Aj4testeUP.png',    width: '55vw', x: '-3vw', y: '-4vw' },
             { src: './imagensShoes/yuto.png',       width: '60vw', x: '-1vw', y: '0vw'  },
@@ -113,272 +116,7 @@
         });
 
         /* CATALOG DATA - TODOS OS TÊNIS COM IMAGENS E FORMATO PADRONIZADO E COMPACTO */
-        const CATALOG = {
-          apparel:[
-            /* --- AIR JORDAN 4 (15 CARDS) --- */
-            {code:'SN‑01',name:'AIR JORDAN 4 RETRO "THUNDER"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/aj4thundery.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑02',name:'AIR JORDAN 4 RETRO "FEAR"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/aj4fear.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑03',name:'AIR JORDAN 4 RETRO SB "NAVY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/aj4sbnavy.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑04',name:'AIR JORDAN 4 "REIMAGINED BRED"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/reimagined.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑05',name:'AIR JORDAN 4 RETRO "MILITARY BLUE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/Mblue.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑06',name:'AIR JORDAN 4 SB RETRO "PINE GREEN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/pinegreen.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑07',name:'AIR JORDAN 4 RETRO "BLACK CAT"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/blackcat.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑08',name:'AIR JORDAN 4 RETRO "UNIVERSITY BLUE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/Ublue.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑09',name:'AIR JORDAN 4 "RED THUNDER"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/redthunder.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑10',name:'AIR JORDAN 4 RETRO "WHITE CEMENT"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/whitecement.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2016']]},
-            {code:'SN‑11',name:'AIR JORDAN 4 RETRO "INFRARED"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/infrared.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑12',name:'AIR JORDAN 4 RETRO "CANVAS"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/canvas.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑13',name:'AIR JORDAN 4 RETRO "TAUPE HAZE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/tape.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑14',name:'AIR JORDAN 4 RETRO "UON"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/noir.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑15',name:'AIR JORDAN 4 RETRO "PARIS"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/paris.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-
-            /* --- AIR JORDAN 1 LOW (15 CARDS) --- */
-            {code:'SN‑16',name:'AIR JORDAN 1 LOW "TRAVIS SCOTT PHANTOM"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/phantom.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑17',name:'AIR JORDAN 1 LOW "TRAVIS SCOTT REVERSE MOCHA"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/reverse.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑18',name:'AIR JORDAN 1 LOW "TRAVIS SCOTT OLIVE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/olive.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑19',name:'AIR JORDAN 1 LOW "OLD MOCHA"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/oldmocha.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑20',name:'AIR JORDAN 1 LOW "BRED TOE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/bredtoe.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑21',name:'AIR JORDAN 1 LOW "SHADOW"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/shadow.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑22',name:'AIR JORDAN 1 LOW "OBSIDIAN UNC"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/obsidianunc.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑23',name:'AIR JORDAN 1 LOW "CHICAGO"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/chicago.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑24',name:'AIR JORDAN 1 LOW "TRIPLE WHITE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/triplewhite.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑25',name:'AIR JORDAN 1 LOW "MOCHA"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/mocha.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑26',name:'AIR JORDAN 1 LOW "LUCKY GREEN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/green.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑27',name:'AIR JORDAN 1 LOW "LIGHT SMOKE GREY UON"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/aj1lowgrey.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑28',name:'AIR JORDAN 1 LOW "FRAGMENT"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/fragment.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑29',name:'AIR JORDAN 1 LOW "BWG"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/bwg.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑30',name:'AIR JORDAN 1 LOW "ARMORY NAVY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/an.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-
-            /* --- AIR JORDAN 1 HIGH (15 CARDS) --- */
-            {code:'SN‑31',name:'AIR JORDAN 1 HIGH "CHICAGO"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/chicagohigh.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑32',name:'AIR JORDAN 1 RETRO HIGH "BRED"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/bredhigh.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑33',name:'AIR JORDAN 1 HIGH "SHADOW 2.0"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/shadow20.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑34',name:'AIR JORDAN 1 HIGH "FRAGMENT X UNION LA VRSR"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/unionhigh.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2017']]},
-            {code:'SN‑35',name:'AIR JORDAN 1 HIGH "MOCHA"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/mochahigh.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑36',name:'AIR JORDAN 1 HIGH "LOST & FOUND"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/foundandlost.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑37',name:'AIR JORDAN 1 HIGH "UNC TOE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/unctoehigh.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑38',name:'AIR JORDAN 1 HIGH "TAXICAB"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/taxi.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑39',name:'AIR JORDAN 1 HIGH "OBSIDIAN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/obsidianhigh.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2019']]},
-            {code:'SN‑40',name:'AIR JORDAN 1 HIGH "A MA MANIERE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/highama.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑41',name:'AIR JORDAN 1 HIGH "FRAGMENT TRAVIS"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/aj1hights.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑42',name:'AIR JORDAN 1 HIGH "SHATTERED BLACKBOARD"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/shattered.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑43',name:'AIR JORDAN 1 HIGH "PINE GREEN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/highpine.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑44',name:'AIR JORDAN 1 HIGH "UNIVERSITY BLUE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/university.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑45',name:'AIR JORDAN 1 HIGH "HERITAGE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/heritage.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-
-            /* --- DUNK (25 CARDS) --- */
-            {code:'SN‑46',name:'DUNK LOW PRO "PANDA"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/panda.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑47',name:'DUNK LOW "SB FUTURA LABORATORIES"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/futura.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑48',name:'DUNK LOW "SB JARRITOS"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/jarritos.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑49',name:'DUNK LOW "SB MUMMY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/mummy.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑50',name:'DUNK LOW "SB SAN FRANCISCO (BLACK)"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sanfrancisco.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑51',name:'DUNK LOW "SB BORN X RAISED"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/bornxraised.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑52',name:'DUNK LOW "SB RAYSSA LEAL"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/rayssaleal.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑53',name:'DUNK LOW "SB PARIS"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/dunkparis.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑54',name:'DUNK LOW "LOBSTER (all colors)"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/orangelobster.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑55',name:'DUNK LOW "KENTUCKY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/kentucky.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑56',name:'DUNK LOW "GREY FOG"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/greyfog.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑57',name:'DUNK LOW "SB APRIL SKATEBOARD"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/april.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑58',name:'DUNK LOW "ST JOHN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/stjohn.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑59',name:'DUNK LOW "CACAO (WOMENS)"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/cacao.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑60',name:'DUNK LOW "MIDNIGHT NAVY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/midnightnavy.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑61',name:'DUNK LOW "REDWOOD"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/redwood.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑62',name:'DUNK LOW "SB YUTO HORIGOME"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yuto.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑63',name:'DUNK LOW "VALENTINES DAY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/valentines.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑64',name:'DUNK LOW "MICHIGAN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/michigan.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑65',name:'DUNK LOW "SYRACUSE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/syracuse.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑66',name:'DUNK LOW "MEDIUM CURRY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/mediumcurry.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑67',name:'DUNK LOW "VINTAGE GREEN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/vintagegreen.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑68',name:'DUNK LOW "POLAR BLUE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/polarblue.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑69',name:'DUNK LOW "SB DODGERS"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sbdodgers.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑70',name:'DUNK LOW "SB SUPREME 94"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/dunksupreme.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-
-            /* --- AIR JORDAN 3 (9 CARDS) --- */
-            {code:'SN‑71',name:'AIR JORDAN 3 RETRO "WHITE CEMENT"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j3whitecement.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑72',name:'AIR JORDAN 3 RETRO "BLACK CAT"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j3blackcat.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑73',name:'AIR JORDAN 3 RETRO "WIZARDS"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j3wizards.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑74',name:'AIR JORDAN 3 RETRO "BLACK CEMENT"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j3blackcement.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2018']]},
-            {code:'SN‑75',name:'AIR JORDAN 3 RETRO"FIRE RED"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j3firered.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑76',name:'AIR JORDAN 3 RETRO "PURE MONEY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j3puremoney.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑77',name:'AIR JORDAN 3 RETRO "PALOMINO"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j3palomino.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑78',name:'AIR JORDAN 3 RETRO "AMM DIFFUSED BLUE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j3ama.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑79',name:'AIR JORDAN 3 RETRO "FEAR"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j3fear.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-
-            /* --- AIR JORDAN 5 (9 CARDS) --- */
-            {code:'SN‑80',name:'AIR JORDAN 5 "FIRE RED"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j5firered.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑81',name:'AIR JORDAN 5 "METALLIC BLACK"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j5mb.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2016']]},
-            {code:'SN‑82',name:'AIR JORDAN 5 "RACER BLUE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j5racerblue.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑83',name:'AIR JORDAN 5 "OREO MOONLIGHT"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j5oreo.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑84',name:'AIR JORDAN 5 "UNC"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j5unc.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑85',name:'AIR JORDAN 5 "GRAPE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j5grape.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2018']]},
-            {code:'SN‑86',name:'AIR JORDAN 5 "LUCKY GREEN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j5luckygreen.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑87',name:'AIR JORDAN 5 "WHITE METTALIC"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j5whitemettalic.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑88',name:'AIR JORDAN 5 "OREGON"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j5oregon.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-
-            /* --- AIR JORDAN 11 (9 CARDS) --- */
-            {code:'SN‑89',name:'AIR JORDAN 11 "CONCORD"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j11concord.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2018']]},
-            {code:'SN‑90',name:'AIR JORDAN 11 "BRED"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j11bred.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2019']]},
-            {code:'SN‑91',name:'AIR JORDAN 11 "GRATITUDE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j11gratitude.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑92',name:'AIR JORDAN 11 "SPACE JAM"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j11spacejam.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2016']]},
-            {code:'SN‑93',name:'AIR JORDAN 11 "COOL GREY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j11coolgrey.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑94',name:'AIR JORDAN 11 "WIN LIKE 82"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j11win.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2017']]},
-            {code:'SN‑95',name:'AIR JORDAN 11 "JUBILEE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j11jubilee.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑96',name:'AIR JORDAN 11 "NEAPOLITAN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j11neapolitan.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑97',name:'AIR JORDAN 11 "ANIMAL INSTINCT(WOMENS)"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/j11womans.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-
-            /* --- AIR MAX 95 (6 CARDS) --- */
-            {code:'SN‑98',name:'AIR MAX 95 "NEON"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/airmax95neon.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑99',name:'AIR MAX 95 "CORTEIZ PINK BEAM"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/airmax95corteiz.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑100',name:'AIR MAX 95 "TRIPLE BLACK"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/airmax95black.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑101',name:'AIR MAX 95 "SOLAR RED"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/airmax95solar.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2018']]},
-            {code:'SN‑102',name:'AIR MAX 95 "CORTEIZ AEGEAN STORM"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/airmax95corteizblue.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑103',name:'AIR MAX 95 "ANATOMY OF AIR"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/airmax95anatomy.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-
-            /* --- YZ 500 (6 CARDS) --- */
-            {code:'SN‑104',name:'YZ 500 "UTILITY BLACK"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz500black.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑105',name:'YZ 500 "BLUSH"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz500blush.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑106',name:'YZ 500 "SUPERMOON YELLOW"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz500yellow.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2018']]},
-            {code:'SN‑107',name:'YZ 500 "BONE WHITE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz500bone.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑108',name:'YZ 500 "ASH GREY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz500ash.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑109',name:'YZ 500 "CLAY BROWN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz500clay.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-
-            /* --- YZ OUTROS MODELOS (FOAM/QUANTUM) (6 CARDS) --- */
-            {code:'SN‑110',name:'YZ "FOAM RUNNER ONYX"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/foamrunneronix.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑111',name:'YZ "FOAM RUNNER CARBON"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/foamrunnercarbon.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑112',name:'YZ "FOAM RUNNER SAND"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/foamrunnersand.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑113',name:'YZ "FOAM RUNNER MX CINDER"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/foamrunnercinder.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑114',name:'YZ "FOAM RUNNER VERMILION"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/foamrunnerred.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑115',name:'YZ "FOAM MXT MOON GRAY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/foamrunnermxt.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-
-            /* --- YZ 700 (6 CARDS) --- */
-            {code:'SN‑116',name:'YZ 700 "WAVE RUNNER"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz700waverunner.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑117',name:'YZ 700 V2 "STATIC"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz700static.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑118',name:'YZ 700 V3 "AZAEL"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz700azael.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑119',name:'YZ 700 "ANALOG"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz700analog.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2019']]},
-            {code:'SN‑120',name:'YZ 700 V2 "TEPHRA"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz700tephra.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑121',name:'YZ 700 V3 "DARK GLOW"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz700darkglow.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-
-            /* --- YZ SLIDE (9 CARDS) --- */
-            {code:'SN‑122',name:'YZ SLIDE "ONYX"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/onix.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑123',name:'YZ SLIDE "BONE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/bone.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑124',name:'YZ SLIDE "RESIN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/resin.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑125',name:'YZ SLIDE "PURE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/pure.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑126',name:'YZ SLIDE "FLAX"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/flax.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑127',name:'YZ SLIDE "SLATE GREY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/slategrey.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑128',name:'YZ SLIDE "AZURE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/azure.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑129',name:'YZ SLIDE "GLOW GREEN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/glowgreen.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑130',name:'YZ SLIDE "GRANITE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/granite.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-
-            /* --- YZ BOOST 350 (9 CARDS) --- */
-            {code:'SN‑131',name:'YZ BOOST 350 V2 "BELUGA"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz350beluga.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑132',name:'YZ BOOST 350 V2 "ZEBRA"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz350zebra.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑133',name:'YZ BOOST 350 V2 "ONYX"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz350onyx.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑134',name:'YZ BOOST 350 V2 "CORE BLACK RED"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz350cbr.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2020']]},
-            {code:'SN‑135',name:'YZ BOOST 350 V2 "CREAM"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz350cream.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2018']]},
-            {code:'SN‑136',name:'YZ BOOST 350 V2 "SLATE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz350slate.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑137',name:'YZ BOOST 350 V2 "BONE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz350bone.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑138',name:'YZ BOOST 350 V2 "DAZZLING BLUE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz350dazzling.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑139',name:'YZ BOOST 350 V2 "STEEL GREY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/yz350grey.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-
-            /* --- NIKE MIND 001 (6 CARDS) --- */
-            {code:'SN‑140',name:'NIKE MIND 001 "BLACK CHROME"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/mindblack.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑141',name:'NIKE MIND 001 "LIGHT SMOKE GREY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/mindsmoke.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑142',name:'NIKE MIND 001 "LIGHT BONE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/mindbone.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑143',name:'NIKE MIND 001 "BBG ROYAL"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/mindroyal.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑144',name:'NIKE MIND 001 "GTL MENTA"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/mindmenta.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑145',name:'NIKE MIND 001 "METTALIC SILVER"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/mindms.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-
-            /* --- ADIDAS SAMBA (12 CARDS) --- */
-            {code:'SN‑146',name:'ADIDAS SAMBA OG "THE OG"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambatheog.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑147',name:'ADIDAS SAMBA OG "BLACK WHITE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambablack.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑148',name:'ADIDAS SAMBA OG "GUM WHITE (WOMENS)"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambagumwhite.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑149',name:'ADIDAS SAMBA x WALES BONNER "LEOPARD"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambawales.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑150',name:'ADIDAS SAMBA OG "GREEN GUM"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambagreen.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑151',name:'ADIDAS SAMBA OG "COLLEGIATE BURGUNDY (WOMENS)"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambaburgundy.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑152',name:'ADIDAS SAMBA OG "ALUMINUM GUM (WOMENS)"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambaaluminum.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑153',name:'ADIDAS SAMBA OG "RED NIGHT INDIGO"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambanightred.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑154',name:'ADIDAS SAMBA OG "SILVER METALLIC (WOMENS)"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambasilver.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑155',name:'ADIDAS SAMBA OG "RHINESTONE BLACK (WOMENS)"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambarhinestone.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑156',name:'ADIDAS SAMBA OG "CLAY BROWN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambaclay.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑157',name:'ADIDAS SAMBA OG "NOTTING HILL"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/sambanotting.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-
-            /* --- NEW BALANCE 550 (9 CARDS) --- */
-            {code:'SN‑158',name:'NEW BALANCE 550 "AIME LEON DORE GREEN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb550green.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑159',name:'NEW BALANCE 550 "AIME LEON DORE GREY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb550grey.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑160',name:'NEW BALANCE 550 "WHITE NAVY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb550navy.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑161',name:'NEW BALANCE 550 "WHITE BLACK"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb550black.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑162',name:'NEW BALANCE 550 "WHITE RED"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb550red.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑163',name:'NEW BALANCE 550 "WHITE BLUE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb550blue.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑164',name:'NEW BALANCE 550 "AIME LEON DORE BROWN"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb550brown.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑165',name:'NEW BALANCE 550 "WHITE DREAM STATE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb550dream.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑166',name:'NEW BALANCE 550 "WHITE SHADOW"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb550shadow.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-
-            /* --- NEW BALANCE 530 (9 CARDS) --- */
-            {code:'SN‑167',name:'NEW BALANCE 530 "WHITE SILVER NAVY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb530whitesilver.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑168',name:'NEW BALANCE 530 "STEEL GREY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb530steel.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑169',name:'NEW BALANCE 530 "BEIGE ANGORA"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb530beigeangora.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑170',name:'NEW BALANCE 530 "RAINCLOUD"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb530raincloud.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑171',name:'NEW BALANCE 530 "WHITE NAVY METTALIC"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb530whitemettalic.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑172',name:'NEW BALANCE 530 "SEE SALT MOONBEAM"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb530seasalt.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑173',name:'NEW BALANCE 530 "SILVER CREAM"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb530silvercream.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑174',name:'NEW BALANCE 530 "CLASSIC BLACK GREY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb530classic.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑175',name:'NEW BALANCE 530 "WHITE SILVER METTALIC BLACK"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb530wsmb.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-
-            /* --- NEW BALANCE 9060 (9 CARDS) --- */
-            {code:'SN‑176',name:'NEW BALANCE 9060 "TRIPLE BLACK"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb9060black.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑177',name:'NEW BALANCE 9060 "RAIN CLOUD GREY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb9060raincloud.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑178',name:'NEW BALANCE 9060 "SEA SALT"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb9060seasalt.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑179',name:'NEW BALANCE 9060 "BLACK CASTERLOCK"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb9060blackcasterlock.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑180',name:'NEW BALANCE 9060 "GREY JET BLACK"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb9060greyjet.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑181',name:'NEW BALANCE 9060 "ARID STONE MUSHROOM"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb9060arid.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑182',name:'NEW BALANCE 9060 "WHITE RED"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb9060whitered.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑183',name:'NEW BALANCE 9060 "SILVER METTALIC WHITE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb9060smw.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2024']]},
-            {code:'SN‑184',name:'NEW BALANCE 9060 "QUARTZ GREY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb9060quartz.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-
-            /* --- NEW BALANCE 2002R (9 CARDS) --- */
-            {code:'SN‑185',name:'NEW BALANCE 2002R "PROTECTION PACK RAIN CLOUD"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb2002rprotection.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑186',name:'NEW BALANCE 2002R "PHANTOM"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb2002rphantom.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑187',name:'NEW BALANCE 2002R "PROTECTION PACK SEA SALT"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb2002rseasalt.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2021']]},
-            {code:'SN‑188',name:'NEW BALANCE 2002R "PROTECTION PACK BLACK"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb2002rblack.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑189',name:'NEW BALANCE 2002R "GREY VINTAGE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb2002rgrey.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-            {code:'SN‑190',name:'NEW BALANCE 2002R "NIGHT TIDE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb2002rnighttide.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑191',name:'NEW BALANCE 2002R "DEEP TAUPE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb2002rtaupe.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑192',name:'NEW BALANCE 2002R "STORM BLUE"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb2002rstormblue.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2023']]},
-            {code:'SN‑193',name:'NEW BALANCE 2002R "MIRAGE GREY"',type:'sneaker',group:'Sneakers',img:'./imagensShoes/nb2002rmirage.png',specs:[['Tamanho','38 ao 44'],['Ano de Lançamento','2022']]},
-
-            /* ITENS ROUPAS */
-            {code:'AP‑01',name:'OVERSIZED SET',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑02',name:'STORM SHELL',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑03',name:'FIELD PANT',type:'hoodie',group:'Apparel',specs:[['Tamanho','38 ao 48'],['Ano de Lançamento','2023']]},
-            {code:'AP‑04',name:'RAW EDGE CREW',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑05',name:'TECH TEE BLACK',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑06',name:'HEAVYWEIGHT CREW',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2023']]},
-            {code:'AP‑07',name:'CARGO UTILITY PANT',type:'hoodie',group:'Apparel',specs:[['Tamanho','38 ao 48'],['Ano de Lançamento','2024']]},
-            {code:'AP‑08',name:'TACTICAL VEST',type:'hoodie',group:'Apparel',specs:[['Tamanho','Ajustável (P ao GG)'],['Ano de Lançamento','2023']]},
-            {code:'AP‑09',name:'ESSENTIAL HOODIE',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑10',name:'ARCHIVE DENIM',type:'hoodie',group:'Apparel',specs:[['Tamanho','38 ao 48'],['Ano de Lançamento','2023']]},
-            {code:'AP‑11',name:'TRACK JACKET V1',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑12',name:'OVERSIZED SHORT',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑13',name:'THERMAL LONG SLEEVE',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2023']]},
-            {code:'AP‑14',name:'WINDBREAKER JACKET',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑15',name:'FLEECE JOGGER',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2023']]},
-            {code:'AP‑16',name:'NYLON TRACK PANT',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑17',name:'BOXER FIT TEE WHITE',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑18',name:'PUFFER JACKET MATTE',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2023']]},
-            {code:'AP‑19',name:'CANVAS OVERSHIRT',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑20',name:'TACTICAL SHORTS',type:'hoodie',group:'Apparel',specs:[['Tamanho','38 ao 48'],['Ano de Lançamento','2024']]},
-            {code:'AP‑21',name:'SWEATSHIRT GRAPHIC V2',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2023']]},
-            {code:'AP‑22',name:'MINIMALIST TEE BEIGE',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑23',name:'ZIP HOODIE HEAVY',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑24',name:'UTILITY BELT BAG',type:'hoodie',group:'Apparel',specs:[['Tamanho','Único'],['Ano de Lançamento','2023']]},
-            {code:'AP‑25',name:'REVERSIBLE BOMBER',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑26',name:'RIBBED TANK TOP',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑27',name:'DENIM TRUCKER JACKET',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2023']]},
-            {code:'AP‑28',name:'FLEECE VEST ZIP',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2024']]},
-            {code:'AP‑29',name:'KNIT SWEATER CHARCOAL',type:'hoodie',group:'Apparel',specs:[['Tamanho','P ao GG'],['Ano de Lançamento','2023']]},
-            {code:'AP‑30',name:'CARGO JOGGER V3',type:'hoodie',group:'Apparel',specs:[['Tamanho','38 ao 48'],['Ano de Lançamento','2024']]}
-          ]
-        };
+        let CATALOG = { apparel: [] };
 
         const ACCENTS = {auto:'#2b5c8f', audio:'#6342e8', apparel:'#8a7353', hardware:'#059669'};
 
@@ -541,7 +279,7 @@
             /* AVISO DISCRETO AO FINAL DOS CARDS DOS TÊNIS COM LINK PARA WHATSAPP */
             const whatsNoticeHTML = `
                 <div class="more-models-notice">
-                    Não encontrou nenhum? Para qualquer específicos <a href="https://wa.me/555499743141?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20outros%20modelos%20de%20AJ4" target="_blank" rel="noopener noreferrer">aqui</a>
+                    Não encontrou nenhum? Para qualquer específicos <a href="https://wa.me/${WHATSAPP}?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20outros%20modelos%20de%20AJ4" target="_blank" rel="noopener noreferrer">aqui</a>
                 </div>
             `;
 
@@ -609,7 +347,7 @@
 
             const whatsNoticeHTML = `
                 <div class="more-models-notice">
-                    Não gostou(encontrou) o que queria? Para específicos <a href="https://wa.me/555499743141?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20outros%20modelos%20de%20roupas" target="_blank" rel="noopener noreferrer">aqui</a>
+                    Não gostou(encontrou) o que queria? Para específicos <a href="https://wa.me/${WHATSAPP}?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20outros%20modelos%20de%20roupas" target="_blank" rel="noopener noreferrer">aqui</a>
                 </div>
             `;
 
@@ -696,7 +434,11 @@
             </div>
           </div>`;
         }
-        renderCards();
+
+        fetch('./produtos.json')
+          .then(function (r) { return r.json(); })
+          .then(function (data) { CATALOG.apparel = data; renderCards(); })
+          .catch(function (err) { console.error('Falha ao carregar produtos.json:', err); });
 
 /* LÓGICA DO MODAL DE PRODUTO */
 const drawer = document.getElementById('drawer');
@@ -764,7 +506,9 @@ drawerClose.addEventListener('click', closeDrawer);
 drawerBackdrop.addEventListener('click', closeDrawer);
 
         /* LÓGICA DO CARRINHO */
+        const CART_KEY = 'stro_cart';
         let cart = [];
+        try { cart = JSON.parse(localStorage.getItem(CART_KEY)) || []; } catch (e) { cart = []; }
         const cartToggle = document.getElementById('cartToggle');
         const cartDrawer = document.getElementById('cartDrawer');
         const cartBackdrop = document.getElementById('cartBackdrop');
@@ -785,6 +529,7 @@ drawerBackdrop.addEventListener('click', closeDrawer);
         cartToggle.addEventListener('click', toggleCart);
         cartClose.addEventListener('click', toggleCart);
         cartBackdrop.addEventListener('click', toggleCart);
+        updateCart();
 
         addToCartBtn.addEventListener('click', () => {
             if (!currentItem) return;
@@ -801,6 +546,7 @@ drawerBackdrop.addEventListener('click', closeDrawer);
         });
 
         function updateCart() {
+            try { localStorage.setItem(CART_KEY, JSON.stringify(cart)); } catch (e) {}
             const totalCount = cart.reduce((acc, item) => acc + item.qty, 0);
             cartBadge.textContent = totalCount;
             cartCountLabel.textContent = `(${totalCount} itens)`;
@@ -867,7 +613,7 @@ drawerBackdrop.addEventListener('click', closeDrawer);
             selectedItems.forEach(i => {
                 msg += `- ${i.name} (Qtd: ${i.qty}) [${i.code}]\n`;
             });
-            window.open(`https://wa.me/555499743141?text=${encodeURIComponent(msg)}`, '_blank');
+            window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`, '_blank');
         });
 
         /* PRELOADER */
