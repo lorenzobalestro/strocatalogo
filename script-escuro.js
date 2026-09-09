@@ -1,17 +1,17 @@
 /* LOOP HERO SNEAKERS */
         const heroSneakers = [
-            { src: './imagensPI/Aj4testeUP.png',    width: '55vw', x: '-3vw', y: '-4vw' },
+            { src: './imagensPI/hd25novo.png',    width: '55vw', x: '-3vw', y: '-4vw' },
             { src: './imagensPI/Sampler.png',       width: '60vw', x: '-1vw', y: '0vw'  },
             { src: './imagensPI/macpro.png',        width: '55vw', x: '0vw', y: '-2vw' },
-            { src: './imagensPI/beluga.png',        width: '60vw', x: '-2vw', y: '-4vw' },
-            { src: './imagensPI/hd25novo.png',      width: '55vw', x: '0vw',  y: '-1vw' },
-            { src: './imagensPI/af1utopia.png',     width: '55vw', x: '-2vw', y: '-4vw' },
+            { src: './imagensPI/5090.png',        width: '60vw', x: '-2vw', y: '-4vw' },
+            { src: './imagensPI/razersharkUP.png',      width: '55vw', x: '0vw',  y: '-1vw' },
+            { src: './imagensPI/velangk.png',     width: '55vw', x: '-2vw', y: '-4vw' },
             { src: './imagensPI/turbo.png',         width: '50vw', x: '-3vw', y: '-3vw' },
-            { src: './imagensPI/aj1hights.png',     width: '55vw', x: '-2vw', y: '-4vw' },
-            { src: './imagensPI/velangk.png',       width: '45vw', x: '-3vw', y: '-2vw' },
-            { src: './imagensPI/aj1lowgrey.png',    width: '55vw', x: '-2vw', y: '-2vw' },
-            { src: './imagensPI/5090.png',          width: '45vw', x: '0vw',  y: '-2vw' },
-            { src: './imagensPI/razersharkUP.png',  width: '40vw', x: '-3vw', y: '2vw' },
+            { src: './imagensPI/RMX-1000-Photoroom.png',     width: '55vw', x: '-2vw', y: '-4vw' },
+            { src: './imagensPI/djiosmopocket3-Photoroom.png',       width: '45vw', x: '-3vw', y: '-2vw' },
+            { src: './imagensPI/console-nintendo-switch-Photoroom.png',    width: '55vw', x: '-2vw', y: '-2vw' },
+            { src: './imagensPI/apple17-Photoroom.png',          width: '45vw', x: '0vw',  y: '-2vw' },
+            { src: './imagensPI/airpodsmax-Photoroom.png',  width: '40vw', x: '-3vw', y: '2vw' },
         ];
 
         let currentSneakerIndex = 0;
