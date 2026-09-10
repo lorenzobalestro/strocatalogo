@@ -438,10 +438,8 @@
           </div>`;
         }
 
-        fetch('./produtos.json')
-          .then(function (r) { return r.json(); })
-          .then(function (data) { CATALOG.apparel = data; renderCards(); })
-          .catch(function (err) { console.error('Falha ao carregar produtos.json:', err); });
+        CATALOG.apparel = window.PRODUTOS || [];
+        renderCards();
 
 /* LÓGICA DO MODAL DE PRODUTO */
 const drawer = document.getElementById('drawer');

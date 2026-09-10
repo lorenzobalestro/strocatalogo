@@ -1,4 +1,5 @@
-[
+/* Catalogo de produtos. Editar aqui: um objeto por produto. */
+window.PRODUTOS = [
   {
     "code": "SN‑01",
     "name": "AIR JORDAN 4 RETRO \"THUNDER\"",
@@ -3760,4 +3761,4 @@
       ]
     ]
   }
-]
+];
