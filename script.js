@@ -20,44 +20,64 @@
             { src: './imagensPI/nb550navy.png',           width: '39vw', x: '1vw',   y: '-3vw' },
         ];
 
-        let currentSneakerIndex = 0;
         const sneakerImg = document.getElementById('heroSneaker');
         const heroShadow = document.getElementById('heroShadow');
 
-        function startSneakerLoop() {
-            if(!sneakerImg || !heroShadow) return;
+        /* Pre-carrega todas as imagens do hero. Sem isso, ao trocar o src
+           a imagem entra na animacao ainda nao decodificada e da o flash
+           (parece repetir o tenis / "buga" antes de passar pro proximo). */
+        const heroCache = heroSneakers.map(function (item) {
+            var img = new Image();
+            img.src = item.src;
+            return img;
+        });
 
-            function animateNextSneaker() {
-                const item = heroSneakers[currentSneakerIndex];
-                
+        function startSneakerLoop() {
+            if (!sneakerImg || !heroShadow || typeof gsap === 'undefined') return;
+
+            let index = 0;
+            let running = false;
+
+            async function showNext() {
+                if (running) return;      // trava reentrada dupla
+                running = true;
+
+                const item = heroSneakers[index];
+
+                /* espera a imagem estar 100% pronta antes de qualquer coisa */
+                const pre = heroCache[index];
+                try { if (pre && pre.decode) await pre.decode(); } catch (e) {}
+
                 sneakerImg.src = item.src;
                 sneakerImg.style.width = item.width;
 
                 const tl = gsap.timeline({
-                    onComplete: () => {
-                        currentSneakerIndex = (currentSneakerIndex + 1) % heroSneakers.length;
-                        animateNextSneaker();
+                    onComplete: function () {
+                        running = false;
+                        index = (index + 1) % heroSneakers.length;
+                        showNext();
                     }
                 });
 
-                tl.fromTo(sneakerImg, 
+                tl.fromTo(sneakerImg,
                     { x: '100vw', y: '0vw', rotation: 15 },
                     { x: item.x, y: item.y, rotation: -15, duration: 1.8, ease: 'power2.out' }
                 )
                 .fromTo(heroShadow,
                     { x: '100vw', scaleX: 0.3, opacity: 0.1 },
                     { x: '0vw', scaleX: 1, opacity: 1, duration: 1.8, ease: 'power2.out' },
-                    "<"
+                    '<'
                 )
                 .to([sneakerImg, heroShadow], { duration: 0.8 })
-                .to(sneakerImg, { 
-                    x: '-100vw', y: '-8vw', rotation: -30, duration: 1.6, ease: 'power2.in' 
+                .to(sneakerImg, {
+                    x: '-100vw', y: '-8vw', rotation: -30, duration: 1.6, ease: 'power2.in'
                 })
-                .to(heroShadow, { 
-                    x: '-100vw', scaleX: 0.3, opacity: 0.1, duration: 1.6, ease: 'power2.in' 
-                }, "<");
+                .to(heroShadow, {
+                    x: '-100vw', scaleX: 0.3, opacity: 0.1, duration: 1.6, ease: 'power2.in'
+                }, '<');
             }
-            animateNextSneaker();
+
+            showNext();
         }
         startSneakerLoop();
 
