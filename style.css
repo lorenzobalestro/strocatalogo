@@ -1383,20 +1383,13 @@ html[data-catalog="escuro"] .cat-code::before {
 }
 
 html[data-catalog="escuro"] .card {
-  position: relative; border-radius: 20px; overflow: hidden;
   background: rgba(26, 26, 29, 0.88);
-  border: 1px solid var(--line);
-  min-height: 330px;
-  padding: 1.4rem;
-  display: flex; flex-direction: column; justify-content: space-between;
-  cursor: pointer;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.02);
-  transition: border-color .35s, transform .35s var(--ease-out), box-shadow .35s, opacity .6s var(--ease-out);
-  will-change: transform;
-  content-visibility: auto;
-  contain-intrinsic-size: 330px;
-  opacity: 0;
-  transform: translateY(24px);
+}
+/* .card.is-visible (0,2,0) perdia pro .card escopado (0,2,1) acima,
+   entao os cards ficavam opacity:0 pra sempre no escuro. */
+html[data-catalog="escuro"] .card.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 html[data-catalog="escuro"] .card:hover .whats-val-btn {
@@ -1481,6 +1474,7 @@ html[data-catalog="escuro"] .model-dropdown-menu {
   flex-direction: column;
   gap: 0.2rem;
 }
+html[data-catalog="escuro"] .model-dropdown-menu.open { display: flex; }
 
 html[data-catalog="escuro"] .cat-section.is-dev::after {
   content: '🔒 SEÇÃO EM DESENVOLVIMENTO — ACESSO RESTRITO';
@@ -1516,6 +1510,7 @@ html[data-catalog="escuro"] .drawer {
   display: flex; flex-direction: column; color: var(--ink);
   box-shadow: -20px 0 60px rgba(0,0,0,0.4);
 }
+html[data-catalog="escuro"] .drawer.open { transform: translateX(0); }
 
 html[data-catalog="escuro"] .drawer-close:hover {
   border-color: var(--ink); color: var(--ink); background: rgba(255,255,255,0.06);
