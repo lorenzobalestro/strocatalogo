@@ -781,15 +781,28 @@
     width: min(560px, 44vw); height: min(560px, 44vw);
     display: flex; align-items: center; justify-content: center;
 }
+/* glow suave da cor da categoria atras do produto */
+.pv-stage::before {
+    content: '';
+    position: absolute; z-index: 0;
+    left: 50%; top: 46%;
+    width: 76%; height: 76%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: radial-gradient(circle, color-mix(in srgb, var(--accent, #888) 30%, transparent) 0%, transparent 62%);
+    filter: blur(24px);
+    pointer-events: none;
+}
+/* sombra de contato no chao */
 .pv-stage::after {
     content: '';
     position: absolute; z-index: 0;
-    left: 50%; bottom: 8%;
-    width: 58%; height: 20px;
+    left: 50%; bottom: 3%;
+    width: 68%; height: 40px;
     transform: translateX(-50%);
     border-radius: 50%;
-    background: radial-gradient(ellipse at center, rgba(90,150,200,.4) 0%, rgba(90,150,200,.16) 55%, transparent 80%);
-    filter: blur(2px);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,.34) 0%, rgba(0,0,0,.18) 42%, transparent 74%);
+    filter: blur(11px);
 }
 #drawerImg {
     position: relative; z-index: 1;
@@ -1689,6 +1702,7 @@ html[data-catalog="escuro"] .pv-close:hover { background: #232326; }
 html[data-catalog="escuro"] .pv-media { background: radial-gradient(circle at 50% 40%, #232326, #0c0c0e 80%); }
 html[data-catalog="escuro"] .pv-media-bg { opacity: .5; }
 html[data-catalog="escuro"] .pv-media::before { background: radial-gradient(120% 88% at 50% 12%, color-mix(in srgb, var(--accent, #8a8a8a) 40%, transparent), transparent 66%), linear-gradient(180deg, transparent 40%, rgba(0,0,0,.35)); }
-html[data-catalog="escuro"] .pv-stage::after { background: radial-gradient(ellipse at center, rgba(160,138,255,.35) 0%, rgba(160,138,255,.14) 55%, transparent 80%); }
+html[data-catalog="escuro"] .pv-stage::after { background: radial-gradient(ellipse at center, rgba(0,0,0,.6) 0%, rgba(0,0,0,.3) 42%, transparent 74%); filter: blur(13px); }
+html[data-catalog="escuro"] .pv-stage::before { background: radial-gradient(circle, color-mix(in srgb, var(--accent, #888) 38%, transparent) 0%, transparent 60%); }
 html[data-catalog="escuro"] .spec-card { background: linear-gradient(155deg, rgba(255,255,255,0.03), rgba(255,255,255,0)); }
 
