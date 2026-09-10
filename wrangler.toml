@@ -1,4 +1,4 @@
-name = "strocatalogo"
+name = "catalogo"
 compatibility_date = "2024-11-01"
 
 # Site 100% estático — sem Worker script, só serve os arquivos da raiz.
