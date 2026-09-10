@@ -30,18 +30,18 @@ const HERO_SETS = {
     ],
     /* escuro: imagens ainda cruas — afinadas depois, mas ja herdam o preload/decode */
     escuro: [
-        { src: './imagensPI/hd25novo.png',                        width: '55vw', x: '-3vw', y: '-4vw' },
-        { src: './imagensPI/Sampler.png',                         width: '60vw', x: '-1vw', y: '0vw'  },
-        { src: './imagensPI/macpro.png',                          width: '55vw', x: '0vw',  y: '-2vw' },
-        { src: './imagensPI/5090.png',                            width: '60vw', x: '-2vw', y: '-4vw' },
-        { src: './imagensPI/razersharkUP.png',                    width: '55vw', x: '0vw',  y: '-1vw' },
-        { src: './imagensPI/velangk.png',                         width: '55vw', x: '-2vw', y: '-4vw' },
-        { src: './imagensPI/turbo.png',                           width: '50vw', x: '-3vw', y: '-3vw' },
-        { src: './imagensPI/RMX-1000-Photoroom.png',              width: '55vw', x: '-2vw', y: '-4vw' },
-        { src: './imagensPI/djiosmopocket3-Photoroom.png',        width: '45vw', x: '-3vw', y: '-2vw' },
-        { src: './imagensPI/console-nintendo-switch-Photoroom.png', width: '55vw', x: '-2vw', y: '-2vw' },
-        { src: './imagensPI/apple17-Photoroom.png',               width: '45vw', x: '0vw',  y: '-2vw' },
-        { src: './imagensPI/airpodsmax-Photoroom.png',            width: '40vw', x: '-3vw', y: '2vw' },
+        { src: './imagensPI/hd25novo.png',                          width: '22vw', x: '0.5vw',  y: '-3vw' },
+        { src: './imagensPI/Sampler.png',                           width: '36vw', x: '0.5vw',  y: '-3vw' },
+        { src: './imagensPI/macpro.png',                            width: '32vw', x: '0vw',    y: '-3vw' },
+        { src: './imagensPI/5090.png',                              width: '36vw', x: '-0.5vw', y: '-3vw' },
+        { src: './imagensPI/razersharkUP.png',                      width: '30vw', x: '-3vw',   y: '-3vw' },
+        { src: './imagensPI/velangk.png',                           width: '28vw', x: '1.5vw',  y: '-3vw' },
+        { src: './imagensPI/turbo.png',                             width: '30vw', x: '-0.5vw', y: '-3vw' },
+        { src: './imagensPI/RMX-1000-Photoroom.png',                width: '46vw', x: '0vw',    y: '-3vw' },
+        { src: './imagensPI/djiosmopocket3-Photoroom.png',          width: '12vw', x: '-0.5vw', y: '-3vw' },
+        { src: './imagensPI/console-nintendo-switch-Photoroom.png', width: '29vw', x: '0vw',    y: '-3vw' },
+        { src: './imagensPI/apple17-Photoroom.png',                 width: '23vw', x: '0vw',    y: '-3vw' },
+        { src: './imagensPI/airpodsmax-Photoroom.png',              width: '27vw', x: '0vw',    y: '-3vw' },
     ],
 };
 
@@ -473,7 +473,8 @@ function renderAudioList(moduleId) {
         items = items.filter((p, idx) => String((idx % 3) + 1) === activeFilter);
     }
 
-    const head = modelDropdownHTML('0' + moduleId + ' / AUDIO DJ', AUDIO_MODEL_BUTTONS, activeFilter,
+    const label = { 1: 'AUDIO DJ', 2: 'CAR', 3: 'PC' }[moduleId] || 'ITENS';
+    const head = modelDropdownHTML('0' + moduleId + ' / ' + label, AUDIO_MODEL_BUTTONS, activeFilter,
         'toggleAudioDropdown.bind(null,' + moduleId + ')', 'filterAudio.bind(null,' + moduleId + ')', 'audioDropdownMenu' + moduleId)
         .replace('__COUNT__', items.length);
 
