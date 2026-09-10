@@ -1343,6 +1343,16 @@ html[data-catalog="escuro"] .hero-text.text-stroke {
   -webkit-text-stroke: 1.5px rgba(245, 245, 247, 0.16);
 }
 
+/* Hero do catalogo escuro: tamanho pela ALTURA (min entre vh e vw) — todos
+   os itens do mesmo tamanho e sempre dentro da tela, em qualquer monitor.
+   Sem width por item no JS; so ajuste fino de x/y. */
+html[data-catalog="escuro"] .hero-page1 img {
+  width: auto;
+  height: min(44vh, 34vw);
+  max-width: 88vw;
+  object-fit: contain;
+}
+
 html[data-catalog="escuro"] .hero-ground-shadow {
   position: absolute;
   bottom: 12vh;

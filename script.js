@@ -28,20 +28,22 @@ const HERO_SETS = {
         { src: './imagensPI/mocha.png',               width: '39vw', x: '0.5vw', y: '-3vw' },
         { src: './imagensPI/nb550navy.png',           width: '39vw', x: '1vw',   y: '-3vw' },
     ],
-    /* escuro: imagens ainda cruas — afinadas depois, mas ja herdam o preload/decode */
+    /* escuro: SEM width — o tamanho vem do CSS (html[data-catalog="escuro"]
+       .hero-page1 img { height: min(44vh, 34vw) }) pra ficar igual em
+       qualquer monitor. Aqui so o ajuste fino de posicao (x/y). */
     escuro: [
-        { src: './imagensPI/hd25novo.png',                          width: '22vw', x: '0.5vw',  y: '-3vw' },
-        { src: './imagensPI/Sampler.png',                           width: '36vw', x: '0.5vw',  y: '-3vw' },
-        { src: './imagensPI/macpro.png',                            width: '32vw', x: '0vw',    y: '-3vw' },
-        { src: './imagensPI/5090.png',                              width: '36vw', x: '-0.5vw', y: '-3vw' },
-        { src: './imagensPI/razersharkUP.png',                      width: '30vw', x: '-3vw',   y: '-3vw' },
-        { src: './imagensPI/velangk.png',                           width: '28vw', x: '1.5vw',  y: '-3vw' },
-        { src: './imagensPI/turbo.png',                             width: '30vw', x: '-0.5vw', y: '-3vw' },
-        { src: './imagensPI/RMX-1000-Photoroom.png',                width: '46vw', x: '0vw',    y: '-3vw' },
-        { src: './imagensPI/djiosmopocket3-Photoroom.png',          width: '12vw', x: '-0.5vw', y: '-3vw' },
-        { src: './imagensPI/console-nintendo-switch-Photoroom.png', width: '29vw', x: '0vw',    y: '-3vw' },
-        { src: './imagensPI/apple17-Photoroom.png',                 width: '23vw', x: '0vw',    y: '-3vw' },
-        { src: './imagensPI/airpodsmax-Photoroom.png',              width: '27vw', x: '0vw',    y: '-3vw' },
+        { src: './imagensPI/hd25novo.png',                          x: '0vw', y: '0vh' },
+        { src: './imagensPI/Sampler.png',                           x: '0vw', y: '0vh' },
+        { src: './imagensPI/macpro.png',                            x: '0vw', y: '0vh' },
+        { src: './imagensPI/5090.png',                              x: '0vw', y: '0vh' },
+        { src: './imagensPI/razersharkUP.png',                      x: '0vw', y: '0vh' },
+        { src: './imagensPI/velangk.png',                           x: '0vw', y: '0vh' },
+        { src: './imagensPI/turbo.png',                             x: '0vw', y: '0vh' },
+        { src: './imagensPI/RMX-1000-Photoroom.png',                x: '0vw', y: '0vh' },
+        { src: './imagensPI/djiosmopocket3-Photoroom.png',          x: '0vw', y: '0vh' },
+        { src: './imagensPI/console-nintendo-switch-Photoroom.png', x: '0vw', y: '0vh' },
+        { src: './imagensPI/apple17-Photoroom.png',                 x: '0vw', y: '0vh' },
+        { src: './imagensPI/airpodsmax-Photoroom.png',              x: '0vw', y: '0vh' },
     ],
 };
 
@@ -74,7 +76,9 @@ function startSneakerLoop() {
         try { if (pre && pre.decode) await pre.decode(); } catch (e) {}
 
         sneakerImg.src = item.src;
-        sneakerImg.style.width = item.width;
+        /* claro: width por item (vw). escuro: sem width, o CSS controla a
+           altura (min(vh,vw)) pra ficar consistente em qualquer tela. */
+        sneakerImg.style.width = item.width || '';
 
         const tl = gsap.timeline({
             onComplete: function () {
