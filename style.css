@@ -1325,8 +1325,11 @@ html[data-catalog="escuro"] .hero-title-wrap {
   pointer-events: none;
 }
 
-/* Titulo S.T.R.O: usa as MESMAS regras do claro (.hero-text / .text-solid /
-   .text-stroke). So o token --ink muda no escuro. Nao ha override aqui. */
+/* Titulo S.T.R.O — mesmos overrides que o antigo style-escuro.css tinha */
+html[data-catalog="escuro"] .hero-text {
+  color: #fdfbfb00;
+  mix-blend-mode: normal;
+}
 
 html[data-catalog="escuro"] .hero-ground-shadow {
   position: absolute;
@@ -1341,6 +1344,12 @@ html[data-catalog="escuro"] .hero-ground-shadow {
   transform: translateX(-50%);
   filter: blur(10px);
   will-change: transform, opacity;
+}
+
+html[data-catalog="escuro"] .hero-text.text-stroke {
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(245, 245, 247, 0.16);
+  z-index: 3;
 }
 
 html[data-catalog="escuro"] .filter-bar {
