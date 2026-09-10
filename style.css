@@ -1348,8 +1348,8 @@ html[data-catalog="escuro"] .hero-text.text-stroke {
    Sem width por item no JS; so ajuste fino de x/y. */
 html[data-catalog="escuro"] .hero-page1 img {
   width: auto;
-  height: min(56vh, 44vw);
-  max-width: 90vw;
+  height: min(64vh, 50vw);
+  max-width: 92vw;
   object-fit: contain;
 }
 
