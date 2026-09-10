@@ -1325,31 +1325,8 @@ html[data-catalog="escuro"] .hero-title-wrap {
   pointer-events: none;
 }
 
-html[data-catalog="escuro"] .hero-text {
-  /* --- CENTRALIZAÇÃO PERFEITA --- */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(calc(-50% + var(--px, 0px)), calc(-50% + var(--py, 0px))) skewX(-1deg); /* Centraliza exato no meio vertical e horizontal, com leve parallax */
-  /* --- TIPOGRAFIA CLEAN & ELEGANTE --- */
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20vw;                   /* Ajustado para preencher a tela sem estourar */
-  font-weight: 900;
-  font-style: italic;
-  text-transform: uppercase;
-  letter-spacing: -0.04em;           /* Kern ajustado para visual mais profissional */
-  line-height: 0.9;
-  white-space: nowrap;               /* Impede quebra de linha */
-  user-select: none;
-  pointer-events: none;
-  /* No tema escuro o texto e branco solido (sem blend/inversao) */
-  color: var(--ink);
-  mix-blend-mode: normal;
-  /* Suavização para renderização ultra nítida no navegador */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transition: transform .5s cubic-bezier(.16, 1, .3, 1);
-}
+/* Titulo S.T.R.O: usa as MESMAS regras do claro (.hero-text / .text-solid /
+   .text-stroke). So o token --ink muda no escuro. Nao ha override aqui. */
 
 html[data-catalog="escuro"] .hero-ground-shadow {
   position: absolute;
@@ -1364,12 +1341,6 @@ html[data-catalog="escuro"] .hero-ground-shadow {
   transform: translateX(-50%);
   filter: blur(10px);
   will-change: transform, opacity;
-}
-
-html[data-catalog="escuro"] .hero-text.text-stroke {
-  color: transparent;
-  -webkit-text-stroke: 2px var(--ink);
-  z-index: 2;
 }
 
 html[data-catalog="escuro"] .filter-bar {
