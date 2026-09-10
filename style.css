@@ -1342,9 +1342,9 @@ html[data-catalog="escuro"] .hero-text {
   white-space: nowrap;               /* Impede quebra de linha */
   user-select: none;
   pointer-events: none;
-  /* --- EFEITO REALISTA COM AS FOTOS PASSANDO --- */
-  color: #fdfbfb00;
-  mix-blend-mode:normal;        /* Reage dinamicamente às imagens de fundo */
+  /* No tema escuro o texto e branco solido (sem blend/inversao) */
+  color: var(--ink);
+  mix-blend-mode: normal;
   /* Suavização para renderização ultra nítida no navegador */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1368,8 +1368,8 @@ html[data-catalog="escuro"] .hero-ground-shadow {
 
 html[data-catalog="escuro"] .hero-text.text-stroke {
   color: transparent;
-  -webkit-text-stroke: 1.5px rgba(245, 245, 247, 0.16);
-  z-index: 3;
+  -webkit-text-stroke: 2px var(--ink);
+  z-index: 2;
 }
 
 html[data-catalog="escuro"] .filter-bar {
