@@ -7,17 +7,17 @@
            x/y ajustam centralização fina por tênis. */
         const heroSneakers = [
             { src: './imagensPI/Aj4testeUP.png', width: '55vw', x: '-3vw', y: '-4vw' },
-            { src: './imagensPI/yuto.png',       width: '42vw', x: '0vw',  y: '0vw' },
-            { src: './imagensPI/greyfog.png',    width: '43vw', x: '0vw',  y: '0vw' },
-            { src: './imagensPI/beluga.png',     width: '42vw', x: '0vw',  y: '0vw' },
-            { src: './imagensPI/j3blackcat.png', width: '41vw', x: '0vw',  y: '0vw' },
-            { src: './imagensPI/af1utopia.png',  width: '43vw', x: '0vw',  y: '0vw' },
-            { src: './imagensPI/j5oreo.png',     width: '39vw', x: '0vw',  y: '0vw' },
-            { src: './imagensPI/aj1hights.png',  width: '39vw', x: '0vw',  y: '0vw' },
-            { src: './imagensPI/kentucky.png',   width: '42vw', x: '0vw',  y: '0vw' },
-            { src: './imagensPI/aj1lowgrey.png', width: '42vw', x: '0vw',  y: '0vw' },
-            { src: './imagensPI/mocha.png',      width: '43vw', x: '0vw',  y: '0vw' },
-            { src: './imagensPI/nb550navy.png',  width: '43vw', x: '0vw',  y: '0vw' },
+            { src: './imagensPI/yuto.png',       width: '42vw', x: '0vw',  y: '-3vw' },
+            { src: './imagensPI/greyfog.png',    width: '43vw', x: '0vw',  y: '-3vw' },
+            { src: './imagensPI/beluga.png',     width: '42vw', x: '0vw',  y: '-3vw' },
+            { src: './imagensPI/j3blackcat.png', width: '41vw', x: '0vw',  y: '-3vw' },
+            { src: './imagensPI/af1utopia.png',  width: '43vw', x: '0vw',  y: '-3vw' },
+            { src: './imagensPI/j5oreo.png',     width: '39vw', x: '0vw',  y: '-3vw' },
+            { src: './imagensPI/aj1hights.png',  width: '39vw', x: '0vw',  y: '-3vw' },
+            { src: './imagensPI/kentucky.png',   width: '42vw', x: '0vw',  y: '-3vw' },
+            { src: './imagensPI/aj1lowgrey.png', width: '42vw', x: '0vw',  y: '-3vw' },
+            { src: './imagensPI/mocha.png',      width: '43vw', x: '0vw',  y: '-3vw' },
+            { src: './imagensPI/nb550navy.png',  width: '43vw', x: '0vw',  y: '-3vw' },
         ];
 
         let currentSneakerIndex = 0;
