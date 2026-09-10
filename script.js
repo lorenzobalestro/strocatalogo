@@ -512,6 +512,7 @@ const drawerEyebrow = document.getElementById('drawerEyebrow');
 const drawerTitle = document.getElementById('drawerTitle');
 const drawerSpecs = document.getElementById('drawerSpecs');
 const drawerImg = document.getElementById('drawerImg');
+const drawerImgBg = document.getElementById('drawerImgBg');
 let currentItem = null;
 
 document.addEventListener('click', (e) => {
@@ -553,6 +554,7 @@ document.addEventListener('click', (e) => {
             drawerImg.style.display = 'none';
         }
     }
+    if (drawerImgBg) drawerImgBg.src = currentItem.img || '';
 
     if (drawer) drawer.classList.add('open');
     if (drawerBackdrop) drawerBackdrop.classList.add('open');

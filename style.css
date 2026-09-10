@@ -748,11 +748,31 @@
 }
 .pv-close:hover { background: #ffffff; transform: rotate(90deg); }
 .pv-media {
-    position: relative; flex: 0 0 50%; overflow: hidden;
+    position: relative; flex: 0 0 50%; overflow: hidden; isolation: isolate;
     background: linear-gradient(155deg, #fbfbfc 0%, #eef0f3 100%);
     display: flex; align-items: center; justify-content: center;
     height: 580px;
 }
+/* fundo ambiente: copia borrada do proprio produto -> pega a cor dele */
+.pv-media-bg {
+    position: absolute; inset: 0; z-index: 0;
+    width: 100%; height: 100%; object-fit: cover;
+    transform: scale(1.8);
+    filter: blur(48px) saturate(1.55);
+    opacity: .42;
+    pointer-events: none;
+    transition: opacity .4s ease;
+}
+.pv-media-bg[src=""] { opacity: 0; }
+/* tint da cor da categoria (--accent, setado no JS) + leve vinheta */
+.pv-media::before {
+    content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+    background:
+      radial-gradient(120% 88% at 50% 12%, color-mix(in srgb, var(--accent, #8a8a8a) 34%, transparent), transparent 68%),
+      linear-gradient(180deg, transparent 42%, rgba(0,0,0,.14));
+}
+.pv-media .drawer-code { z-index: 2; }
+.pv-media .pv-stage { z-index: 1; }
 /* PALCO DE TAMANHO FIXO: todo tênis ocupa a mesma caixa (width/height
    fixos), centralizado — assim todos aparecem do mesmo tamanho, e a
    sombra de água (num ponto fixo) fica sempre no lugar certo. */
@@ -1667,6 +1687,8 @@ html[data-catalog="escuro"] .pv-modal { background: #17171a; box-shadow: 0 30px 
 html[data-catalog="escuro"] .pv-close { background: rgba(35,35,38,.92); }
 html[data-catalog="escuro"] .pv-close:hover { background: #232326; }
 html[data-catalog="escuro"] .pv-media { background: radial-gradient(circle at 50% 40%, #232326, #0c0c0e 80%); }
+html[data-catalog="escuro"] .pv-media-bg { opacity: .5; }
+html[data-catalog="escuro"] .pv-media::before { background: radial-gradient(120% 88% at 50% 12%, color-mix(in srgb, var(--accent, #8a8a8a) 40%, transparent), transparent 66%), linear-gradient(180deg, transparent 40%, rgba(0,0,0,.35)); }
 html[data-catalog="escuro"] .pv-stage::after { background: radial-gradient(ellipse at center, rgba(160,138,255,.35) 0%, rgba(160,138,255,.14) 55%, transparent 80%); }
 html[data-catalog="escuro"] .spec-card { background: linear-gradient(155deg, rgba(255,255,255,0.03), rgba(255,255,255,0)); }
 
