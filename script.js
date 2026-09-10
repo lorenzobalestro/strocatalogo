@@ -2,19 +2,22 @@
         const WHATSAPP = '5554999743141'; // 55 + DDD + numero, num lugar so
 
         /* LOOP HERO SNEAKERS */
+        /* Imagens do hero: recortadas (sem espaço em branco) em imagensPI/.
+           width normalizado pela ALTURA do tênis 1, que já está ajustado.
+           x/y ajustam centralização fina por tênis. */
         const heroSneakers = [
-            { src: './imagensPI/Aj4testeUP.png',    width: '55vw', x: '-3vw', y: '-4vw' },
-            { src: './imagensShoes/yuto.png',       width: '60vw', x: '-1vw', y: '0vw'  },
-            { src: './imagensShoes/greyfog.png',        width: '55vw', x: '0vw', y: '-2vw' },
-            { src: './imagensPI/beluga.png',        width: '60vw', x: '-2vw', y: '-4vw' },
-            { src: './imagensShoes/j3blackcat.png',      width: '55vw', x: '0vw',  y: '-1vw' },
-            { src: './imagensPI/af1utopia.png',     width: '55vw', x: '-2vw', y: '-4vw' },
-            { src: './imagensShoes/j5oreo.png',         width: '50vw', x: '-3vw', y: '-3vw' },
-            { src: './imagensPI/aj1hights.png',     width: '55vw', x: '-2vw', y: '-4vw' },
-            { src: './imagensShoes/kentucky.png',       width: '45vw', x: '-3vw', y: '-2vw' },
-            { src: './imagensPI/aj1lowgrey.png',    width: '55vw', x: '-2vw', y: '-2vw' },
-            { src: './imagensShoes/mocha.png',          width: '45vw', x: '0vw',  y: '-2vw' },
-            { src: './imagensShoes/nb550navy.png',  width: '40vw', x: '-3vw', y: '2vw' },
+            { src: './imagensPI/Aj4testeUP.png', width: '55vw', x: '-3vw', y: '-4vw' },
+            { src: './imagensPI/yuto.png',       width: '42vw', x: '0vw',  y: '0vw' },
+            { src: './imagensPI/greyfog.png',    width: '43vw', x: '0vw',  y: '0vw' },
+            { src: './imagensPI/beluga.png',     width: '42vw', x: '0vw',  y: '0vw' },
+            { src: './imagensPI/j3blackcat.png', width: '41vw', x: '0vw',  y: '0vw' },
+            { src: './imagensPI/af1utopia.png',  width: '43vw', x: '0vw',  y: '0vw' },
+            { src: './imagensPI/j5oreo.png',     width: '39vw', x: '0vw',  y: '0vw' },
+            { src: './imagensPI/aj1hights.png',  width: '39vw', x: '0vw',  y: '0vw' },
+            { src: './imagensPI/kentucky.png',   width: '42vw', x: '0vw',  y: '0vw' },
+            { src: './imagensPI/aj1lowgrey.png', width: '42vw', x: '0vw',  y: '0vw' },
+            { src: './imagensPI/mocha.png',      width: '43vw', x: '0vw',  y: '0vw' },
+            { src: './imagensPI/nb550navy.png',  width: '43vw', x: '0vw',  y: '0vw' },
         ];
 
         let currentSneakerIndex = 0;
