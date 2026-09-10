@@ -6,18 +6,18 @@
            width normalizado pela ALTURA do tênis 1, que já está ajustado.
            x/y ajustam centralização fina por tênis. */
         const heroSneakers = [
-            { src: './imagensPI/Aj4testeUP.png', width: '50vw', x: '-3vw', y: '-4vw' },
-            { src: './imagensPI/yuto.png',       width: '38vw', x: '0vw',  y: '-3vw' },
-            { src: './imagensPI/greyfog.png',    width: '39vw', x: '0vw',  y: '-3vw' },
-            { src: './imagensPI/beluga.png',     width: '38vw', x: '0vw',  y: '-3vw' },
-            { src: './imagensPI/j3blackcat.png', width: '37vw', x: '0vw',  y: '-3vw' },
-            { src: './imagensPI/af1utopia.png',  width: '39vw', x: '0vw',  y: '-3vw' },
-            { src: './imagensPI/j5oreo.png',     width: '35vw', x: '0vw',  y: '-3vw' },
-            { src: './imagensPI/aj1hights.png',  width: '35vw', x: '0vw',  y: '-3vw' },
-            { src: './imagensPI/kentucky.png',   width: '38vw', x: '0vw',  y: '-3vw' },
-            { src: './imagensPI/aj1lowgrey.png', width: '38vw', x: '0vw',  y: '-3vw' },
-            { src: './imagensPI/mocha.png',      width: '39vw', x: '0vw',  y: '-3vw' },
-            { src: './imagensPI/nb550navy.png',  width: '39vw', x: '0vw',  y: '-3vw' },
+            { src: './imagensPI/Aj4testeUP.png',          width: '56vw', x: '-3vw',  y: '-4vw' },
+            { src: './imagensPI/yuto.png',                width: '35vw', x: '1vw',   y: '-3vw' },
+            { src: './imagensPI/airmax95corteizblue.png', width: '38vw', x: '1vw',   y: '-3vw' },
+            { src: './imagensPI/beluga.png',              width: '38vw', x: '0vw',   y: '-3vw' },
+            { src: './imagensPI/j3blackcat.png',          width: '37vw', x: '1.5vw', y: '-3vw' },
+            { src: './imagensPI/af1utopia.png',           width: '39vw', x: '1vw',   y: '-3vw' },
+            { src: './imagensPI/j5oreo.png',              width: '35vw', x: '1.5vw', y: '-3vw' },
+            { src: './imagensPI/aj1hights.png',           width: '35vw', x: '2.5vw', y: '-3vw' },
+            { src: './imagensPI/kentucky.png',            width: '38vw', x: '0.5vw', y: '-3vw' },
+            { src: './imagensPI/aj1lowgrey.png',          width: '38vw', x: '1vw',   y: '-3vw' },
+            { src: './imagensPI/mocha.png',               width: '39vw', x: '0.5vw', y: '-3vw' },
+            { src: './imagensPI/nb550navy.png',           width: '39vw', x: '1vw',   y: '-3vw' },
         ];
 
         let currentSneakerIndex = 0;
