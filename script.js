@@ -467,15 +467,15 @@ window.filterAudio = function (moduleId, modelKey) {
     renderAudioList(moduleId);
 };
 
+const MODULE_GROUP = { 1: 'Audio DJ', 2: 'Car', 3: 'PC' };
+
 function renderAudioList(moduleId) {
     const el = document.getElementById('listAudioDJ' + moduleId);
     if (!el) return;
 
-    let items = CATALOG.apparel;
+    /* cada modulo mostra so os itens do seu grupo real */
+    let items = CATALOG.apparel.filter(p => p.group === MODULE_GROUP[moduleId]);
     const activeFilter = audioFilters[moduleId];
-    if (activeFilter !== 'all') {
-        items = items.filter((p, idx) => String((idx % 3) + 1) === activeFilter);
-    }
 
     const label = { 1: 'AUDIO DJ', 2: 'CAR', 3: 'PC' }[moduleId] || 'ITENS';
     const head = modelDropdownHTML('0' + moduleId + ' / ' + label, AUDIO_MODEL_BUTTONS, activeFilter,

@@ -3766,97 +3766,154 @@ window.PRODUTOS = {
   escuro: [
     {
       "code": "DJ‑01",
-      "name": "AUDIO DJ ITEM 01",
+      "name": "Sennheiser HD 25",
       "type": "audio",
       "group": "Audio DJ",
+      "img": "./imagensPI/hd25novo.png",
       "specs": [
         [
-          "Especificação",
-          "A definir"
+          "Categoria",
+          "Fone de monitoramento DJ"
         ],
         [
-          "Ano de Lançamento",
-          "2024"
+          "Disponibilidade",
+          "Sob consulta"
         ]
       ]
     },
     {
       "code": "DJ‑02",
-      "name": "AUDIO DJ ITEM 02",
+      "name": "Akai MPC Sample",
       "type": "audio",
       "group": "Audio DJ",
+      "img": "./imagensPI/Sampler.png",
       "specs": [
         [
-          "Especificação",
-          "A definir"
+          "Categoria",
+          "Sampler / produção"
         ],
         [
-          "Ano de Lançamento",
-          "2024"
+          "Disponibilidade",
+          "Sob consulta"
         ]
       ]
     },
     {
       "code": "DJ‑03",
-      "name": "AUDIO DJ ITEM 03",
+      "name": "Pioneer DJ RMX-1000",
       "type": "audio",
       "group": "Audio DJ",
+      "img": "./imagensPI/RMX-1000-Photoroom.png",
       "specs": [
         [
-          "Especificação",
-          "A definir"
+          "Categoria",
+          "Estação de efeitos remix"
         ],
         [
-          "Ano de Lançamento",
-          "2024"
+          "Disponibilidade",
+          "Sob consulta"
         ]
       ]
     },
     {
       "code": "DJ‑04",
-      "name": "AUDIO DJ ITEM 04",
+      "name": "Apple AirPods Max",
       "type": "audio",
       "group": "Audio DJ",
+      "img": "./imagensPI/airpodsmax-Photoroom.png",
       "specs": [
         [
-          "Especificação",
-          "A definir"
+          "Categoria",
+          "Fone over-ear"
         ],
         [
-          "Ano de Lançamento",
-          "2024"
+          "Disponibilidade",
+          "Sob consulta"
         ]
       ]
     },
     {
-      "code": "DJ‑05",
-      "name": "AUDIO DJ ITEM 05",
-      "type": "audio",
-      "group": "Audio DJ",
+      "code": "CAR‑01",
+      "name": "Vela de Ignição NGK",
+      "type": "auto",
+      "group": "Car",
+      "img": "./imagensPI/velangk.png",
       "specs": [
         [
-          "Especificação",
-          "A definir"
+          "Categoria",
+          "Peça de ignição"
         ],
         [
-          "Ano de Lançamento",
-          "2024"
+          "Disponibilidade",
+          "Sob consulta"
         ]
       ]
     },
     {
-      "code": "DJ‑06",
-      "name": "AUDIO DJ ITEM 06",
-      "type": "audio",
-      "group": "Audio DJ",
+      "code": "CAR‑02",
+      "name": "Turbina Automotiva",
+      "type": "auto",
+      "group": "Car",
+      "img": "./imagensPI/turbo.png",
       "specs": [
         [
-          "Especificação",
-          "A definir"
+          "Categoria",
+          "Turbocompressor"
         ],
         [
-          "Ano de Lançamento",
-          "2024"
+          "Disponibilidade",
+          "Sob consulta"
+        ]
+      ]
+    },
+    {
+      "code": "PC‑01",
+      "name": "Apple MacBook Pro",
+      "type": "auto",
+      "group": "PC",
+      "img": "./imagensPI/macpro.png",
+      "specs": [
+        [
+          "Categoria",
+          "Notebook"
+        ],
+        [
+          "Disponibilidade",
+          "Sob consulta"
+        ]
+      ]
+    },
+    {
+      "code": "PC‑02",
+      "name": "ASUS ROG Astral RTX 5090",
+      "type": "gpu",
+      "group": "PC",
+      "img": "./imagensPI/5090.png",
+      "specs": [
+        [
+          "Categoria",
+          "Placa de vídeo"
+        ],
+        [
+          "Disponibilidade",
+          "Sob consulta"
+        ]
+      ]
+    },
+    {
+      "code": "PC‑03",
+      "name": "Razer BlackShark (Gamer)",
+      "type": "audio",
+      "group": "PC",
+      "img": "./imagensPI/razersharkUP.png",
+      "specs": [
+        [
+          "Categoria",
+          "Headset gamer"
+        ],
+        [
+          "Disponibilidade",
+          "Sob consulta"
         ]
       ]
     }
