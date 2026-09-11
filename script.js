@@ -447,7 +447,7 @@ function renderClaro() {
 /* =====================================================================
    RENDER — CATALOGO ESCURO (audio DJ) — provisorio
    ===================================================================== */
-let audioFilters = { 1: 'all', 2: 'all', 3: 'all' };
+let audioFilters = { 1: 'all', 2: 'all', 3: 'all', 4: 'all' };
 
 const AUDIO_MODEL_BUTTONS = [
     { key: 'all', label: 'TODAS AS OPÇÕES' },
@@ -467,7 +467,7 @@ window.filterAudio = function (moduleId, modelKey) {
     renderAudioList(moduleId);
 };
 
-const MODULE_GROUP = { 1: 'Audio DJ', 2: 'Car', 3: 'PC' };
+const MODULE_GROUP = { 1: 'Audio DJ', 2: 'Car', 3: 'PC', 4: 'Others' };
 
 function renderAudioList(moduleId) {
     const el = document.getElementById('listAudioDJ' + moduleId);
@@ -477,7 +477,7 @@ function renderAudioList(moduleId) {
     let items = CATALOG.apparel.filter(p => p.group === MODULE_GROUP[moduleId]);
     const activeFilter = audioFilters[moduleId];
 
-    const label = { 1: 'AUDIO DJ', 2: 'CAR', 3: 'PC' }[moduleId] || 'ITENS';
+    const label = { 1: 'AUDIO DJ', 2: 'CAR', 3: 'PC', 4: 'OTHERS' }[moduleId] || 'ITENS';
     const head = modelDropdownHTML('0' + moduleId + ' / ' + label, AUDIO_MODEL_BUTTONS, activeFilter,
         'toggleAudioDropdown.bind(null,' + moduleId + ')', 'filterAudio.bind(null,' + moduleId + ')', 'audioDropdownMenu' + moduleId)
         .replace('__COUNT__', items.length);
@@ -493,6 +493,7 @@ function renderEscuro() {
     renderAudioList(1);
     renderAudioList(2);
     renderAudioList(3);
+    renderAudioList(4);
 }
 
 /* =====================================================================

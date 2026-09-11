@@ -3816,10 +3816,10 @@ window.PRODUTOS = {
       ]
     },
     {
-      "code": "DJ‑04",
+      "code": "OT‑01",
       "name": "Apple AirPods Max",
       "type": "audio",
-      "group": "Audio DJ",
+      "group": "Others",
       "img": "./imagensPI/airpodsmax-Photoroom.png",
       "specs": [
         [
@@ -3910,6 +3910,57 @@ window.PRODUTOS = {
         [
           "Categoria",
           "Headset gamer"
+        ],
+        [
+          "Disponibilidade",
+          "Sob consulta"
+        ]
+      ]
+    },
+    {
+      "code": "OT‑02",
+      "name": "Apple iPhone 17",
+      "type": "audio",
+      "group": "Others",
+      "img": "./imagensPI/apple17-Photoroom.png",
+      "specs": [
+        [
+          "Categoria",
+          "Smartphone"
+        ],
+        [
+          "Disponibilidade",
+          "Sob consulta"
+        ]
+      ]
+    },
+    {
+      "code": "OT‑03",
+      "name": "Nintendo Switch 2",
+      "type": "audio",
+      "group": "Others",
+      "img": "./imagensPI/console-nintendo-switch-Photoroom.png",
+      "specs": [
+        [
+          "Categoria",
+          "Console de videogame"
+        ],
+        [
+          "Disponibilidade",
+          "Sob consulta"
+        ]
+      ]
+    },
+    {
+      "code": "OT‑04",
+      "name": "DJI Osmo Pocket 3",
+      "type": "audio",
+      "group": "Others",
+      "img": "./imagensPI/djiosmopocket3-Photoroom.png",
+      "specs": [
+        [
+          "Categoria",
+          "Câmera / gimbal"
         ],
         [
           "Disponibilidade",
