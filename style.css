@@ -814,11 +814,15 @@
 .drawer-title { font-family: var(--disp); font-weight: 800; font-size: 1.85rem; margin-bottom: .5rem; line-height: 1.08; }
 .drawer-price { font-family: var(--mono); font-size: .85rem; color: var(--ink-dim); margin-bottom: 1.3rem; font-weight: 500; }
 /* GRID DE SPECS (SUBSTITUI A ANTIGA TABELA SIMPLES) */
+.pv-note {
+    margin: -.3rem 0 1.1rem; font-size: .78rem; line-height: 1.4;
+    color: var(--ink-faint);
+}
 .spec-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: .7rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.2rem;
 }
 .spec-card {
     display: flex;

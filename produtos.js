@@ -10,7 +10,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -27,7 +27,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -44,7 +44,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -61,7 +61,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -78,7 +78,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -95,7 +95,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -112,7 +112,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -129,7 +129,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -146,7 +146,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -163,7 +163,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -180,7 +180,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -197,7 +197,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -214,7 +214,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -231,7 +231,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -248,7 +248,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -265,7 +265,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -282,7 +282,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -299,7 +299,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -316,7 +316,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -333,7 +333,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -350,7 +350,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -367,7 +367,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -384,7 +384,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -401,7 +401,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -418,7 +418,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -435,7 +435,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -452,7 +452,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -469,7 +469,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -486,7 +486,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -503,7 +503,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -520,7 +520,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -537,7 +537,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -554,7 +554,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -571,7 +571,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -588,7 +588,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -605,7 +605,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -622,7 +622,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -639,7 +639,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -656,7 +656,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -673,7 +673,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -690,7 +690,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -707,7 +707,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -724,7 +724,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -741,7 +741,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -758,7 +758,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -775,7 +775,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -792,7 +792,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -809,7 +809,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -826,7 +826,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -843,7 +843,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -860,7 +860,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -877,7 +877,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -894,7 +894,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -911,7 +911,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -928,7 +928,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -945,7 +945,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -962,7 +962,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -979,7 +979,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -996,7 +996,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1013,7 +1013,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1030,7 +1030,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1047,7 +1047,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1064,7 +1064,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1081,7 +1081,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1098,7 +1098,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1115,7 +1115,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1132,7 +1132,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1149,7 +1149,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1166,7 +1166,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1183,7 +1183,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1200,7 +1200,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1217,7 +1217,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1234,7 +1234,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1251,7 +1251,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1268,7 +1268,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1285,7 +1285,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1302,7 +1302,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1319,7 +1319,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1336,7 +1336,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1353,7 +1353,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1370,7 +1370,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1387,7 +1387,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1404,7 +1404,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1421,7 +1421,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1438,7 +1438,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1455,7 +1455,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1472,7 +1472,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1489,7 +1489,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1506,7 +1506,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1523,7 +1523,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1540,7 +1540,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1557,7 +1557,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1574,7 +1574,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1591,7 +1591,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1608,7 +1608,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1625,7 +1625,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1642,7 +1642,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1659,7 +1659,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1676,7 +1676,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1693,7 +1693,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1710,7 +1710,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1727,7 +1727,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1744,7 +1744,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1761,7 +1761,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1778,7 +1778,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1795,7 +1795,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1812,7 +1812,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1829,7 +1829,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1846,7 +1846,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1863,7 +1863,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1880,7 +1880,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1897,7 +1897,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1914,7 +1914,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1931,7 +1931,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1948,7 +1948,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1965,7 +1965,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1982,7 +1982,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -1999,7 +1999,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2016,7 +2016,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2033,7 +2033,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2050,7 +2050,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2067,7 +2067,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2084,7 +2084,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2101,7 +2101,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2118,7 +2118,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2135,7 +2135,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2152,7 +2152,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2169,7 +2169,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2186,7 +2186,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2203,7 +2203,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2220,7 +2220,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2237,7 +2237,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2254,7 +2254,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2271,7 +2271,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2288,7 +2288,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2305,7 +2305,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2322,7 +2322,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2339,7 +2339,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2356,7 +2356,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2373,7 +2373,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2390,7 +2390,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2407,7 +2407,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2424,7 +2424,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2441,7 +2441,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2458,7 +2458,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2475,7 +2475,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2492,7 +2492,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2509,7 +2509,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2526,7 +2526,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2543,7 +2543,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2560,7 +2560,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2577,7 +2577,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2594,7 +2594,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2611,7 +2611,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2628,7 +2628,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2645,7 +2645,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2662,7 +2662,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2679,7 +2679,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2696,7 +2696,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2713,7 +2713,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2730,7 +2730,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2747,7 +2747,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2764,7 +2764,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2781,7 +2781,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2798,7 +2798,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2815,7 +2815,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2832,7 +2832,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2849,7 +2849,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2866,7 +2866,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2883,7 +2883,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2900,7 +2900,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2917,7 +2917,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2934,7 +2934,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2951,7 +2951,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2968,7 +2968,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -2985,7 +2985,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3002,7 +3002,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3019,7 +3019,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3036,7 +3036,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3053,7 +3053,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3070,7 +3070,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3087,7 +3087,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3104,7 +3104,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3121,7 +3121,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3138,7 +3138,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3155,7 +3155,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3172,7 +3172,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3189,7 +3189,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3206,7 +3206,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3223,7 +3223,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3240,7 +3240,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3257,7 +3257,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",
@@ -3274,7 +3274,7 @@ window.PRODUTOS = {
       "specs": [
         [
           "Tamanho",
-          "38 ao 44"
+          "36 ao 45"
         ],
         [
           "Ano de Lançamento",

@@ -206,7 +206,7 @@ function cardHTML(p, catKey) {
         ? `<div class="card-img-wrap"><img src="${p.img}" alt="${p.name}" loading="lazy"></div>`
         : `<div class="card-img-wrap"><div class="glyph-wrap">${GLYPHS[p.type] || ''}</div></div>`;
 
-    return `<div class="card" tabindex="0" style="--accent:${ACCENTS[catKey]};" data-code="${p.code}" data-name="${p.name}" data-type="${p.type}" data-cat="${catKey}" data-img="${p.img || ''}" data-specs='${JSON.stringify(p.specs)}'>
+    return `<div class="card" tabindex="0" style="--accent:${ACCENTS[catKey]};" data-code="${p.code}" data-name="${p.name}" data-type="${p.type}" data-cat="${catKey}" data-group="${groupTag}" data-img="${p.img || ''}" data-specs='${JSON.stringify(p.specs)}'>
         <div class="card-top"><span>${displayCode}</span><span>${groupTag}</span></div>
         ${imgContent}
         <div class="card-bottom">
@@ -525,17 +525,20 @@ document.addEventListener('click', (e) => {
         name: card.dataset.name,
         type: card.dataset.type,
         cat: card.dataset.cat,
+        group: card.dataset.group,
         img: card.dataset.img,
         specs: specs
     };
 
     if (drawer) drawer.style.setProperty('--accent', ACCENTS[currentItem.cat] || ACCENTS.apparel);
     if (drawerCode) drawerCode.textContent = currentItem.code;
-    if (drawerEyebrow) drawerEyebrow.textContent = (currentItem.cat || '').toUpperCase();
+    if (drawerEyebrow) drawerEyebrow.textContent = currentItem.group || (currentItem.cat || '').toUpperCase();
     if (drawerTitle) drawerTitle.textContent = currentItem.name;
 
     if (drawerSpecs) {
-        drawerSpecs.innerHTML = specs.map(([k, v]) => `
+        /* referencia entra junto das specs -> modal mais completo, mesmo dado do card */
+        const fullSpecs = [['Referência', currentItem.code], ...specs];
+        drawerSpecs.innerHTML = fullSpecs.map(([k, v]) => `
             <div class="spec-card">
                 <div class="spec-ic">${specIcon(k)}</div>
                 <div class="spec-txt">
